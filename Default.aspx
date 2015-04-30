@@ -39,7 +39,7 @@
 <div class="detail" style="font-size:14px;">Portsmouth Elks Club<br />
 <a href="http://binged.it/1bg4kog" target="_blank">500 Jones Ave, Portsmouth</a>
 <br /><br />
-Purchase Tickets and RSVP here: <a href="https://secure.actblue.com/contribute/page/2015clambake" target="_blank">https://secure.actblue.com/contribute/page/2015clambake</a>
+Purchase Tickets and RSVP here: <a href="https://secure.actblue.com/contribute/page/2015clambake" target="_blank">ActBlue</a>
 </div>
 </td>
 </tr>
