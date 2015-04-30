@@ -39,9 +39,9 @@ display:flex;
 align-items:center;
 justify-content:flex-end;
 }
-#h_name,#h_sub{margin:0;padding:0}
+#h_name,#h_sub{margin:0;padding:0;line-height:1em}
 #h_name{color:#417e9a;font-size:2.5em}
-#h_sub{color:#6a6a6a;font-size:2.1em;padding-bottom:.5em}
+#h_sub{color:#6a6a6a;font-size:2em;padding-bottom:.5em}
 
 .box_title {
 background-color:#6f9cb1;
