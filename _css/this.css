@@ -1,3 +1,4 @@
+html,body{padding:0;margin:0}
 body {
 background:#F7F7F7 url('../_images/bg.jpg') repeat-x fixed;
 color:#444;
@@ -5,9 +6,12 @@ font-family:Segoe UI,Verdana,Arial,Helvetica,sans-serif;
 font-size:13px;
 margin:0;
 padding:0;
+display:flex;
+flex-direction:column;
+align-items:center;
 }
 a {
-color:rgba(65,126,154,.75);
+color:#417E9A;
 text-decoration:none;
 }
 a:hover {
@@ -16,84 +20,50 @@ text-decoration:underline;
 a img {border:0;}
 hr {border:0;margin:5px 0px;padding:0;}
 
-.header {
-background:url('../_images/sprite.png') no-repeat;
-height:175px;
-left:-12px;
-margin:0 auto;
-position:relative;
-text-align:right;
-vertical-align:top;
-width:952px;
-}
-.header .stuff {
-background-color:red;
-position:relative;
-right:0px;
-top:0px;
-}
+.df{display:flex}
+.fdc{flex-direction:column}
+.f1{flex:1}
+.tac{text-align:center}
 
-.box {
-border-bottom:1px solid rgba(65,126,154,.75);
-margin:0px auto;
-width:930px;
+#h {
+background:url('../_images/logo.png') no-repeat;
+display:flex;
+font-family:'Gotham A','Gotham B';
+padding-left:150px;
+height:190px;
+max-width:850px;
+width:100%;
 }
-.box .block {
-color:#417e9a;
-font-size:16px;
-margin:5px;
-padding:5px;
+#h_social {
+display:flex;
+align-items:center;
+justify-content:flex-end;
 }
-/*.box .block a {
+#h_name,#h_sub{margin:0;padding:0}
+#h_name{color:#417e9a;font-size:2.5em}
+#h_sub{color:#6a6a6a;font-size:2.1em;padding-bottom:.5em}
+
+.box_title {
+background-color:#6f9cb1;
 color:#fff;
-}*/
-.box > .title {
-background-color: rgba(65,126,154,.75);
+font-family:'Gotham A','Gotham B';
+font-weight: 100;
+font-size:2em;
 padding:5px 7px;
 }
-.box > .title .text {
-background: url('../_images/sprite.png') no-repeat;
-height:25px;
+.box {
+background-color:#fff;
+border-bottom:1px solid #6f9cb1;
+margin-top:6px;
+max-width:930px;
+width:100%;
 }
-.box > .title .campaign_offices {
-background-position:-6px -178px;
-width:255px;
-}
-.box > .title .local_committees {
-background-position:-6px -234px;
-width:500px;
-}
-.box > .title .events {
-background-position:-269px -178px;
-width:120px;
-}
-.box > .title .rcdc {
-background-position:-6px -206px;
-width:628px;
-}
-.box .tile {
-background-color:rgba(255,255,255,.9);
+.tile {
+background-color:#fff;
 padding:5px 7px;
-vertical-align:top;
-width:300px;
 }
-.box .tile_small {
-background-color:rgba(255,255,255,.9);
-font-size:11px;
-padding:5px;
-vertical-align:top;
-width:150px;
-}
-.tile .title {
-color:rgba(65,126,154,1);
+.tile_title {
+color:#417E9A;
 font-family:Georgia,serif;
-font-size:20px;
+font-size:1.8em;
 }
-.tile_small .title {
-color:rgba(65,126,154,1);
-font-family:Georgia,serif;
-font-size:16px;
-}
-
-
-.twitter-follow-button {position:relative !important;top:-48px;left:-10px;}
