@@ -29,8 +29,8 @@ hr {border:0;margin:5px 0px;padding:0;}
 background:url('../_images/logo.png') no-repeat;
 display:flex;
 font-family:'Gotham A','Gotham B';
-padding-left:150px;
-min-height:190px;
+padding-left:132px;
+min-height:180px;
 max-width:850px;
 width:100%;
 }
@@ -42,7 +42,7 @@ flex:1
 }
 #h_name,#h_sub{margin:0;padding:0;line-height:1em}
 #h_name{color:#417e9a;font-size:2.5em}
-#h_sub{color:#6a6a6a;font-size:2em;padding-bottom:.5em}
+#h_sub{color:#6a6a6a;font-size:2em;padding-bottom:1em}
 
 .box_title {
 background-color:#6f9cb1;
