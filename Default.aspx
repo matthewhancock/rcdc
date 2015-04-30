@@ -24,7 +24,7 @@
 <div class="box">
 <div class="title"><div class="text events">&nbsp;</div></div>
 
-<table cellpadding="0" cellspacing="0" style="width:916px">
+<table cellpadding="0" cellspacing="0" style="width:930px">
 <tr>
 <td class="tile" style="width:50%;text-align:center;">
 <div class="title" style="font-size:24px;">Monthly Meeting</div>
