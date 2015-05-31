@@ -75,7 +75,7 @@ padding:.1em 0
 }
 
 /* IE Hacks */
-@media screen\0 and (orientation : portrait ) {
+@media ( orientation : portrait ) and screen\0 {
 #h {height:0}
 .m_fdc {display:block;}
 }
