@@ -70,3 +70,7 @@ font-family:Georgia,serif;
 font-size:1.8em;
 padding:.1em 0
 }
+
+@media (orientation : portrait) {
+.m_fdc {flex-direction:column}
+}
