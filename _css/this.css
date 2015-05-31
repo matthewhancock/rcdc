@@ -73,3 +73,9 @@ padding:.1em 0
 @media (orientation : portrait) {
 .m_fdc {flex-direction:column}
 }
+
+/* IE Hacks */
+@media screen\0 {
+#h {height:0}
+.m_fdc {display:block;}
+}
