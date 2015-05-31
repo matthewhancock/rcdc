@@ -30,7 +30,8 @@ background:url('../_images/logo.png') no-repeat;
 display:flex;
 font-family:'Gotham A','Gotham B';
 padding-left:132px;
-height:180px;min-height:180px;
+height:0; /* need default value for IE */
+min-height:180px;
 max-width:850px;
 width:100%;
 }
